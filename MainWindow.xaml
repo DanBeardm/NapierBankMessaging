@@ -15,7 +15,7 @@
         <!-- Column 1 -->
         <DockPanel Grid.Column="0" Margin="5 5" Background="AliceBlue">
             <StackPanel>
-                <Button Content="{Binding SmSMessageButtonContent}" Command="{Binding SmSMessageButtonCommand}" Margin="2 2 2 10"/>
+                <Button Content="{Binding AddMessageButtonContent}" Command="{Binding AddMessageButtonCommand}" Margin="2 2 2 10"/>
                 <Button Content="{Binding ViewOutputContent}" Command="{Binding ViewOutputButtonCommand}" Margin="2 2 2 10"/>
             </StackPanel>
         </DockPanel>

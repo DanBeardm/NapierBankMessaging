@@ -9,13 +9,13 @@ namespace NapierBankMessaging.Views
     /// <summary>
     /// Interaction logic for AddSmS.xaml
     /// </summary>
-    public partial class AddSmS : UserControl
+    public partial class AddMessage : UserControl
     {
-        public AddSmS()
+        public AddMessage()
         {
             InitializeComponent();
 
-            this.DataContext = new AddSmSViewModel();
+            this.DataContext = new AddMessageViewModel();
         }
     }
 }

@@ -1,5 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NapierBankMessaging.ViewModels;
+using System;
+
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -14,13 +15,15 @@ using System.Windows.Shapes;
 namespace NapierBankMessaging.Views
 {
     /// <summary>
-    /// Interaction logic for AddTweet.xaml
+    /// Interaction logic for ViewListsView.xaml
     /// </summary>
-    public partial class AddTweet : UserControl
+    public partial class ViewListsView : UserControl
     {
-        public AddTweet()
+        public ViewListsView()
         {
             InitializeComponent();
+
+            this.DataContext = new ViewListViewModel();
         }
     }
 }
